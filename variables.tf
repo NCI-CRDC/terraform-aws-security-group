@@ -30,11 +30,6 @@ variable "associated_resource" {
   description = "provide the abbreviated name of the resource this security group is associated with (i.e. alb)"
 }
 
-variable "description" {
-  type        = string
-  description = "describe the purpose of this security group"
-}
-
 variable "revoke_rules_on_delete" {
   type        = bool
   description = "revoke attached ingress and egress rules before deleting the rule itself"

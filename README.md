@@ -34,7 +34,6 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_app"></a> [app](#input\_app) | the name of the application expressed as an acronym | `string` | n/a | yes |
 | <a name="input_associated_resource"></a> [associated\_resource](#input\_associated\_resource) | provide the abbreviated name of the resource this security group is associated with (i.e. alb) | `string` | n/a | yes |
-| <a name="input_description"></a> [description](#input\_description) | describe the purpose of this security group | `string` | n/a | yes |
 | <a name="input_env"></a> [env](#input\_env) | the target tier ('dev', 'qa', 'stage', or 'prod'.) | `string` | n/a | yes |
 | <a name="input_program"></a> [program](#input\_program) | the program associated with the application | `string` | n/a | yes |
 | <a name="input_revoke_rules_on_delete"></a> [revoke\_rules\_on\_delete](#input\_revoke\_rules\_on\_delete) | revoke attached ingress and egress rules before deleting the rule itself | `bool` | `false` | no |
